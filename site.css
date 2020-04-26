@@ -1,1 +1,26 @@
 /* CSS definition file containing site wide stylesheets */
+
+BODY {
+	font-family: "Times New Roman",  Times,  Serif;
+ 	font-size: xx-small;
+ 	font-weight: normal;
+ 	font-style: normal
+}
+
+P {
+	font-family: "Times New Roman",  Times,  Serif;
+ 	font-size: small;
+ 	font-weight: normal;
+ 	font-style: normal;
+ 	text-align: justify;
+ 	text-indent: 5pt;
+ 	margin: 0pt 2pt
+}
+
+LI {
+	font-family: "Times New Roman",  Times,  Serif;
+ 	font-size: small;
+ 	text-align: justify;
+ 	text-indent: 0pt;
+ 	margin: 0pt 2pt
+}

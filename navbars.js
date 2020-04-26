@@ -55,10 +55,7 @@
 				}
 			}
 			$(document).bind("click", {id: cMenuId}, closeCurrentMenu);
-			
-			if (settings.autoClose) {
-				$(window).bind("blur", {id: cMenuId}, closeCurrentMenu);
-			}
+			$(window).bind("blur", {id: cMenuId}, closeCurrentMenu);
 		}
 
 		var zindex = parseInt($(this).css("z-index"));
@@ -176,10 +173,7 @@
 				if (width > maxWidth)
 					maxWidth = width;
 			}
-			li.css({
-				"z-index": zindex + 1,
-				"height": height
-			});
+			li.css("z-index", zindex + 1);
 
 			// do we have a submenu ?
 			var ul = $("> ul", this);
